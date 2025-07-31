@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.Xiangqi" path="/org/gnome/Xiangqi/">
+    <key name="window-width" type="i">
+      <default>800</default>
+      <summary>窗口宽度</summary>
+      <description>窗口的宽度（像素）</description>
+    </key>
+    <key name="window-height" type="i">
+      <default>900</default>
+      <summary>窗口高度</summary>
+      <description>窗口的高度（像素）</description>
+    </key>
+    <key name="is-maximized" type="b">
+      <default>false</default>
+      <summary>窗口是否最大化</summary>
+      <description>窗口是否处于最大化状态</description>
+    </key>
+    <key name="game-time" type="i">
+      <default>600</default>
+      <summary>游戏时间</summary>
+      <description>每方的游戏时间（秒）</description>
+    </key>
+    <key name="show-legal-moves" type="b">
+      <default>true</default>
+      <summary>显示合法走法</summary>
+      <description>选中棋子时是否显示合法走法</description>
+    </key>
+    <key name="sound-enabled" type="b">
+      <default>true</default>
+      <summary>启用声音</summary>
+      <description>是否启用游戏声音</description>
+    </key>
+  </schema>

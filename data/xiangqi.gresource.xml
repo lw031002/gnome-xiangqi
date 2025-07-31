@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gresources>
+  <gresource prefix="/org/gnome/Xiangqi">
+    <file preprocess="xml-stripblanks">xiangqi-window.ui</file>
+    <file>pieces/red_general.svg</file>
+    <file>pieces/red_advisor.svg</file>
+    <file>pieces/red_elephant.svg</file>
+    <file>pieces/red_horse.svg</file>
+    <file>pieces/red_chariot.svg</file>
+    <file>pieces/red_cannon.svg</file>
+    <file>pieces/red_soldier.svg</file>
+    <file>pieces/black_general.svg</file>
+    <file>pieces/black_advisor.svg</file>
+    <file>pieces/black_elephant.svg</file>
+    <file>pieces/black_horse.svg</file>
+    <file>pieces/black_chariot.svg</file>
+    <file>pieces/black_cannon.svg</file>
+    <file>pieces/black_soldier.svg</file>
+  </gresource>
+</gresources>

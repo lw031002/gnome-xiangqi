@@ -1,0 +1,46 @@
+# 构建目录
+_build/
+builddir/
+build/
+
+# 编译生成的文件
+*.o
+*.so
+*.a
+*.la
+*.lo
+*.vala.c
+*.c
+*.h
+
+# 编辑器临时文件
+*~
+.*.swp
+.*.swo
+*.bak
+*.tmp
+
+# IDE文件
+.vscode/
+.idea/
+*.iml
+
+# 自动生成的文件
+config.h
+stamp-h1
+Makefile
+Makefile.in
+aclocal.m4
+autom4te.cache/
+config.log
+config.status
+configure
+install-sh
+missing
+compile
+depcomp
+.deps/
+.libs/
+
+# 其他
+.DS_Store
